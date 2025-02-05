@@ -130,3 +130,77 @@ nav .button-part a:hover{
     padding: 14px 28px;
     border-radius: 10px;
 }
+
+.bestservice .container .flex{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+
+.bestservice .container .service-text h2{
+    font-size: 30px;
+    text-align: center;
+    
+
+}      
+.bestservice .container .service-image img{
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+
+
+}
+.bestservice .container .service-image h3 {
+    font-size: 20px;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+
+}
+
+
+
+.bestservice .container .service-image a{
+    margin-top: 20px;
+}
+
+.app-image{
+    background-image: url("/images/launchbanner1.png");
+    width: 400px;
+    height: 400px;;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 40px;
+    margin-left: 70px;
+    position: relative;
+    
+    
+    
+}
+
+
+.app-imagetwo{
+    background-image: url("/images/launchbannertwo.jpg");
+    width: 200px;
+    height: 450px;;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    position: absolute;
+    left: 350px;
+    z-index: 10;
+
+}
+
+
+
+.right-left{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+
